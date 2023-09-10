@@ -1,0 +1,24 @@
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "AlanJS", email = "alanjoses.29@gmail.com"},
+]
+dependencies = [
+    "opencv-python>=4.8.0.74",
+    "rich>=13.4.2",
+    "imutils>=0.5.4",
+    "python-dvr>=0.0.1",
+    "deepdiff>=6.3.1",
+    "imageio>=2.31.1",
+    "matplotlib>=3.7.2",
+]
+requires-python = ">=3.11"
+license = {text = "MIT"}
+
+[tool.pyright]
+exclude = ".venv"
+venvPath = "."
+venv = ".venv"

@@ -1,0 +1,25 @@
+{
+    "segment_size": 120,
+    "segment_name": "{}-segment",
+    "scale_factor": 0.5,
+
+    "realtime": true,
+
+    "retry_interval": 20,
+
+    "min_confidence": 0.5,
+
+    "debug": true,
+
+    "X11": true,
+
+    "cameras": [
+        {
+            "name": "peixes",
+            "folder": "~/Videos/peixes",
+            "password": "CAar093704LC",
+            "mac": "44:29:1e:a4:a9:c1"
+        }
+    ]
+}
+
