@@ -23,9 +23,9 @@ def find_ip_by_mac():
 class DummyVideoWriter:
     def __init__(self):
         pass
-    def release(*args, **kwargs):
+    def release(*args, **_):
         pass
-    def write(*args, **kwargs):
+    def write(*args, **_):
         pass
 
 class FreshestFrame(threading.Thread):

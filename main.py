@@ -75,5 +75,6 @@ if cameras_json['X11'] == True:
 
 # DONE - enviar os segmentos para uma conta do google drive
 # TODO - procurar uma forma de controlar os motores da camera através do python-onvif
+# TODO - guardar todos os dados de um certo intervalo de tempo e só processar os dados (remover os segmentos sem movimento) depois de um tempo
 
 
